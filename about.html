@@ -5,30 +5,41 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>About Us</title>
-    <link rel="stylesheet" href="navbarmain.css">
+  
     <link rel="stylesheet" href="simplefooter.css">
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
-<body style="padding-top: 45px;">
-    <section class="header">
-        <nav>
-            <a href="index.html"><i class="fa fa-home home"></i></a>
-            <div class="nav-links" id="navLinks">
-                <i class="fa fa-times" onclick="hideMenu()"></i>
-                <ul>
-                    <li><a href="index.html">Home</a></li>
-                    <li><a href="about.html">About</a></li>
-                    <li><a href="products.html">Products</a></li>
-                    <li><a href="blog.html">Blog</a></li>
-                    <li><a href="contact.html">Contact</a></li>
-                   
+<body>
+    <nav class="navbar navbar-expand-lg bg-dark navbar-dark ">
+        <div class="container">
+            <a href="index.html" class="navbar-brand">Drew's Electronics</a>
+            <button class="navbar-toggler" type="button"
+            data-bs-toggle ="collapse" data-bs-target="#navmenu">
+            <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navmenu">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a href="index.html" class="nav-link">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="about.html"  class="nav-link">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="products.html" class="nav-link">Products</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="blog.html" class="nav-link">Blog</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="contact.html" class="nav-link">Contact</a>
+                    </li>
                 </ul>
             </div>
-       <i class="fa fa-bars" onclick="showMenu()"></i>
-        </nav>
-     
-       </section> 
+        </div>
+       </nav>
        <section id="header-header" class="section-p1">
         <h2>#Know Us</h2>
         <p>A number one shop in town</p>
@@ -100,6 +111,7 @@
         </div>
         <p>copyright&copy; Drew's Electronics 2022 All Rights Reserved</p>
     </section>
+    <script src="js/bootstrap.min.js"></script>
     <script src="script.js"></script>
 </body>
 </html>
