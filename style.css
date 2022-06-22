@@ -22,8 +22,7 @@
     flex-direction: column;
     height: 90vh;
     align-items: center;
-   background-image: linear-gradient(rgb(4,9,30,0.7), rgb(4,9,30,0.7)), url("img/hero.jpg");
-   background-size: cover;
+   
    
    
 }
