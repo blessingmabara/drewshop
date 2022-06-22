@@ -5,45 +5,55 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Home</title>
-    <link rel="stylesheet" href="navbarmain.css">
+    
     <link rel="stylesheet" href="simplefooter.css">
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
 </head>
 <body>
-    <section class="header">
-        <nav>
-            <a href="index.html"><i class="fa fa-home home"></i></a>
-            <div class="nav-links" id="navLinks">
-                <i class="fa fa-times" onclick="hideMenu()"></i>
-                <ul>
-                    <li><a href="index.html">Home</a></li>
-                    <li><a href="about.html">About</a></li>
-                    <li><a href="products.html">Products</a></li>
-                    <li><a href="blog.html">Blog</a></li>
-                    <li><a href="contact.html">Contact</a></li>
-                    
+    <nav class="navbar navbar-expand-lg bg-dark navbar-dark ">
+        <div class="container">
+            <a href="index.html" class="navbar-brand">Drew's Electronics</a>
+            <button class="navbar-toggler" type="button"
+            data-bs-toggle ="collapse" data-bs-target="#navmenu">
+            <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navmenu">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a href="index.html" class="nav-link">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="about.html"  class="nav-link">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="products.html" class="nav-link">Products</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="blog.html" class="nav-link">Blog</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="contact.html" class="nav-link">Contact</a>
+                    </li>
                 </ul>
             </div>
-       <i class="fa fa-bars" onclick="showMenu()"></i>
-        </nav>
-     
-       </section> 
-       
-       <div class="hero-section">
-   
-        <h1>Welcome To <span style="color: rgb(0, 162, 255);">Drew's</span> Electronics</h1>
-        <p>For all your Electronic Gadgets & Mobile Devices</p>
-        <div class="heroBtn">
-            <a href="products.html" class="hero-btn">Products</a>
-            <a href="about.html" class="hero-btn">Get Started</a>
         </div>
-       
+       </nav> 
+       <div style="display: flex;justify-content:center;align-items:center; background-image: linear-gradient(rgb(4,9,30,0.7), rgb(4,9,30,0.7)), url(img/hero.jpg); background-size: cover;">
+        <div class="hero-section">
    
-   
-</div>
+            <h1>Welcome To <span style="color: rgb(0, 162, 255);">Drew's</span> Electronics</h1>
+            <p>For all your Electronic Gadgets & Mobile Devices</p>
+            <div class="heroBtn">
+                <a href="products.html" class="hero-btn">Products</a>
+                <a href="about.html" class="hero-btn">Get Started</a>
+            </div>
+    </div>
+       </div>
+
       
     <section id="product1">
         <h2>New Arrival</h2>
@@ -513,6 +523,7 @@
         <p>copyright&copy; Drew's Electronics 2022 All Rights Reserved</p>
     </section>
     <a href="https://wa.me/79513929716" class="whatsapp_float" target="_blank"><i class="fa fa-whatsapp whatsapp-icon"></i></a>
+    <script src="js/bootstrap.min.js"></script>
     <script src="script.js"></script>
 </body>
 </html>
