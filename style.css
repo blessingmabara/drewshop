@@ -3,6 +3,11 @@
     margin: 0;
     font-family: roboto;
     box-sizing: border-box;
+    color: white;
+   
+}
+body{
+    background-color: #1a1a1a;
 }
 .section-p1{
     padding: 40px 40px;
@@ -10,6 +15,7 @@
 .p1{
     padding: 0 20px;
 }
+
 .nav-link{
    
     margin-left: 10px;
@@ -22,7 +28,7 @@
     flex-direction: column;
     height: 90vh;
     align-items: center;
-   
+  
    
    
 }
@@ -60,6 +66,7 @@
     border-radius: 2px;
     z-index: 1; 
     cursor: pointer;
+    
 }
 .hero-btn:hover{
     border: 2px solid rgb(0, 162, 255);
@@ -74,9 +81,11 @@
 }
 #header-header{
     
-    background-image: url("img/b2.png");
+    background-image: url("img/animatedface.jpg");
     background-position: center;
     background-size: cover;
+    background-color: black;
+    opacity: .7;
     text-align: center;
     
     
@@ -104,17 +113,17 @@
     background-image: url("img/background1.jpg");
 }
 #sm-banner h4{
-    color: rgb(0, 162, 255);
+    color: white;
     font-size: 20px;
     font-weight: 300;
 }
 #sm-banner h2{
-    color:rgb(0, 162, 255);
+    color: white;
     font-size: 28px;
     font-weight: 800;
 }
 #sm-banner span{
-    color: rgb(11, 41, 87);
+    color: white;
     font-size: 14px;
     font-weight: 500;
     margin-bottom: 15px;
@@ -154,12 +163,12 @@
     background-position: center;
 }
 #banner3 h2{
-    color: black;
+    color: white;
     font-weight: 900;
     font-size: 22px;
 }
 #banner3 h3{
-    color: rgb(61, 52, 52);
+    color: white;
     font-weight: 800;
     font-size: 15px;
 }
@@ -328,14 +337,14 @@
     display: inline-block;
 }
 .main-about-container .social i{
-    color:  white;
+    color:  #1a1a1a;
     font-size: 22px;
     height: 45px;
     width: 45px;
     border-radius: 50%;
     line-height: 45px;
     text-align: center;
-    background-color: white;
+    background-color: #1a1a1a;
     margin: 0px 5px;
 }
 /*  End About section*/
@@ -387,12 +396,12 @@
 
 }
 #product1 .pro .des span{
-    color: #606063;
+    color: white;
     font-size: 12px;
 }
 #product1 .pro .des h5{
     padding-top: 7px;
-    color: #1a1a1a;
+    color: white;
     font-size: 14px;
 }
 #product1 .pro .des i{
@@ -407,7 +416,7 @@
 }
 #product1 .pro .des p{
     padding-top: 3px;
-    color: #1a1a1a;
+    color: white;
     font-size: 14px;
 }
 #product1 .pro a{
@@ -451,10 +460,19 @@
     }
 }
 
-
+@media (min-width:770px) {
+    .hero-btn{
+   
+        width: 200px;
+    }
+}
 @media (max-width:768px){
 .whatsapp-icon{
     margin-top: 10px;
+}
+.hero-btn{
+   
+    width: 110px;
 }
 .whatsapp_float{
     width: 40px;
