@@ -27,4 +27,9 @@
         padding: 18px 20;
        
     }
+.navbar-brand{
+    font-weight: 800;
+    font-size: 30px;
+    letter-spacing: 1px;
+}
  
